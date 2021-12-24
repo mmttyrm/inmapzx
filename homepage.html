@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/style-bxslide.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link href="css/customize-style.css" rel="stylesheet">
+    <link href="css/style.responsive.css" rel="stylesheet">
+    <title>where.place</title>
+  </head>
+
+  <body class="homepage">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-cus">
+        <div class="container container">
+          <a class="navbar-brand" href="#"><img class="d-inline-block align-top" src="images/logo-inmapz.png" alt="logo InMapz"/></a>
+          <div class="putmenu" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+          </div>
+
+          <div class="collapse navbar-collapse nav" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active"><a class="nav-link" href="#">Company</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">solutions</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                    <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Industries</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>              
+            </ul>
+          </div>
+
+          
+          <div class="group-btn">
+            <button type="button" class="btn btn-sm btn-danger" style="background-color: #a31f34; border-color: #a31f34; margin-right: 1rem;">Book a Demo</button>
+            <div class="btn-group">
+              <button style="background-color:#8a8a8a" class="btn btn-secondary btn-sm" type="button">En</button>
+              <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="#">En</a></li>
+                <li><a class="dropdown-item" href="#">VN</a></li>
+                <li><a class="dropdown-item" href="#">Thailan</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+    <section class="intro-slider">
+      <div id="homepageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="container">
+              <div class="row justify-content-between ">
+                <div class="col-md-6 col-sm-1 body-slider text-center">
+                  <h3>InMapz – Giải quyết nỗi lo lạc đường cho khách hàng của bạn</h3>
+                  <h5>
+                    <p>+ Bản đồ chỉ đường thông minh, hiện đại</p>
+                    <p>+ Giao diện thân thiện, dễ tương tác</p>
+                    <p>+ Cập nhật thông tin đơn giản, nhanh chóng</p>
+                  </h5>
+                  
+                  <button class="btn btn-lg btn-primary">Learn more</button>
+                  <button class="btn btn-lg btn-danger">book a Demo</button>
+                </div>
+                <div class="col-md-5 col-sm-1 img-slider flex__align-items">
+                  <img src="images/img-slideshow01.png" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="container">
+              <div class="row justify-content-between ">
+                <div class="col-md-6 col-sm-1 body-slider text-center">
+                  <h3>InMapz – Thỏa mãn mọi khách hàng khó tính</h3>
+                  <h5>
+                    <p>+ Thiết kế theo nhận diện thương hiệu khách hàng</p>
+                    <p>+ Tùy chỉnh tính năng theo nhu cầu</p>
+                    <p>+ Dễ dàng tích hợp với mọi nền tảng</p>
+                  </h5>
+                  <button class="btn btn-lg btn-primary">Learn more</button>
+                  <button class="btn btn-lg btn-danger">book a Demo</button>
+                </div>
+                <div class="col-md-5 col-sm-1 img-slider flex__align-items">
+                  <img src="images/img-slideshow02.png" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="container">
+              <div class="row justify-content-between ">
+                <div class="col-md-6 col-sm-1 body-slider text-center">
+                  <h3>InMapz X – Công cụ hỗ trợ quản lý thiết bị tối ưu</h3>
+                  <h5>
+                    <p>+ Quản lý mọi lúc, mọi nơi</p>
+                    <p>+ Quản lý mọi chủng loại thiết bị</p>
+                    <p>+ Tiết kiệm chi phí, thời gian</p>
+                  </h5>
+                  <button class="btn btn-lg btn-primary">Learn more</button>
+                  <button class="btn btn-lg btn-danger">book a Demo</button>
+                </div>
+                <div class="col-md-5 col-sm-1 img-slider flex__align-items">
+                  <img src="images/img-slideshow03.png" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="container">
+              <div class="row justify-content-between ">
+                <div class="col-md-6 col-sm-1 body-slider text-center">
+                  <h3>InMapz – Thứ chúng tôi mang đến cho bạn không chỉ là bản đồ…</h3>
+                  <h5>
+                    <p>+ Công nghệ quản lý thiết bị trên nền bản đồ trực quan</p>
+                    <p>+ Dữ liệu để triển khai các chiến dịch Marketing hiệu quả</p>
+                    <p>+ Công cụ quản lý kiosk tập trung trên nền tảng web</p>
+                    <p>+ Dịch vụ khách hàng chuyên nghiệp, tận tâm, hỗ trợ 24/7</p>
+                  </h5>
+                  <button class="btn btn-lg btn-primary">Learn more</button>
+                  <button class="btn btn-lg btn-danger">book a Demo</button>
+                </div>
+                <div class="col-md-5 col-sm-1 img-slider flex__align-items">
+                  <img src="images/img-slideshow04.png" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        
+        <div class="product-note">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="icon-product-note air">
+                  <img class="color-red" src="images/ic-air.svg" alt="">
+                </div>
+                <p>+ <span>300</span> Interational Airports</p>
+              </div>
+              <div class="col-md-4">
+                <div class="icon-product-note mall">
+                  <img class="color-blue" src="images/ic-mall.svg" alt="">
+                </div>
+                <p>+ <span>1,500</span> Top Malls</p>
+              </div>
+              <div class="col-md-4">
+                <div class="icon-product-note building">
+                  <img class="color-green" src="images/ic-building.svg" alt="">
+                </div>
+                <p>+ <span>100,000</span> Buildings Mappe</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#homepageCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homepageCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="heighlight">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-box text-center">
+              <hr class="line-title">
+              <h2><i></i><span>Tại sao bạn nên chọn InMapz?</span><i></i></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between heighlight-body">
+          <div class="col-md-6 mb-4">
+            <div class="box-heighlight box-heighlight-sam">
+              <h4>Công nghệ số hóa bản đồ hiện đại, đa tính năng</h4>
+              <p>
+                Với bề dày kinh nghiệm cùng những chuyên gia công nghệ hàng đầu, InMapz là một trong những đơn vị tiên phong trong việc đưa công nghệ số hóa bản đồ Indoor đến với khách hàng. Bản đồ số hóa đầy đủ tính năng, dễ tích hợp, kết nối và mở rộng thêm nhiều tiện ích khác
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 mb-6">
+            <div class="box-heighlight box-heighlight-img">
+              <img src="images/img-heighlight01.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between heighlight-body flex-row-reverse">
+          <div class="col-md-6 mb-4">
+            <div class="box-heighlight box-heighlight-sam">
+              <h4>Tăng hiệu quả quản lý, giảm hư hao thất thoát tài sả</h4>
+              <p>
+                Công nghệ quản lý thiết bị từ xa, theo dõi trực quan và tracking các thiết bị động trên nền bản đồ số giúp nhà quản lý dễ dàng nắm bắt thông tin, theo dõi lịch bảo trì bảo dưỡng thiết bị kịp thời, giảm đến 80% thời gian và chi phí cho việc quản lý.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 mb-6">
+            <div class="box-heighlight box-heighlight-img">
+              <img src="images/img-heighlight01.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between heighlight-body">
+          <div class="col-md-6 mb-4">
+            <div class="box-heighlight box-heighlight-sam">
+              <h4>Khai thác tối đa nguồn dữ liệu, tăng trải nghiệm khách hàng</h4>
+              <p>
+                Không chỉ mang đến tiện ích cao cấp cho khách hàng, InMapz còn hỗ trợ doanh nghiệp thu thập và phân tích hành vi khách hàng, từ đó đơn vị có thể cải tiến, đưa ra những chiến dịch marketing hiệu quả hơn để chăm sóc khách hàng của mình
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 mb-6">
+            <div class="box-heighlight box-heighlight-img">
+              <img src="images/img-heighlight01.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between heighlight-body flex-row-reverse">
+          <div class="col-md-6 mb-4">
+            <div class="box-heighlight box-heighlight-sam">
+              <h4>InMapz không ngừng cải tiến và cập nhật xu hướng công nghệ mới</h4>
+              <p>
+                Không tự mãn với những gì mình đã có, đội ngũ R&D InMapz không ngừng nghiên cứu và đưa ra những cải tiến công nghệ vượt trội, mang đến những trải nghiệm tối ưu nhất cho khách hàng.
+            </div>
+          </div>
+          <div class="col-md-5 mb-6">
+            <div class="box-heighlight box-heighlight-img">
+              <img src="images/img-heighlight01.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between heighlight-body">
+          <div class="col-md-6 mb-4">
+            <div class="box-heighlight box-heighlight-sam">
+              <h4>Chi phí hợp lý, hỗ trợ nhanh chóng</h4>
+              <p>
+                Chỉ từ 99$/tháng, khách hàng đã có thể sử dụng đầy đủ dịch vụ của chúng tôi với bản đồ số hóa, chi phí hosting, server, dịch vụ hỗ trợ cập nhật dữ liệu trong vòng 1h trong suốt quá trình sử dụng.
+            </div>
+          </div>
+          <div class="col-md-5 mb-6">
+            <div class="box-heighlight box-heighlight-img">
+              <img src="images/img-heighlight01.png" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="our-solutions">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-box text-center">
+              <hr class="line-title">
+              <h2><i></i><span>Giải pháp của chúng tôi</span><i></i></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center mb-5 solutions__box">
+            <div class="icon-solutions kiosk">
+              <img class="color-white" src="images/ic-location.svg" alt="">
+            </div>
+            <h2>InMapz Maps</h2>
+            <p>Bản đồ số hóa thông minh, dễ tương tác, giúp việc tìm đường nội khu dễ dàng hơn bao giờ hết</p>
+            <button class="btn btn-lg btn-primary">Learn More</button>
+          </div>
+          <div class="col-md-4 text-center mb-5 solutions__box">
+            <div class="icon-solutions inmapz-x">
+              <img class="color-white" src="images/logo-inmapz.svg" alt="">
+            </div>
+            <h2>InMapz X</h2>
+            <p>Giải pháp quản trị thiết bị nội khu thông minh trên nền bản đồ số.</p>
+            <p>Tiết kiệm thời gian, chi phí và tối ưu hiệu quả.</p>
+            <button class="btn btn-lg btn-primary">Learn More</button>
+          </div>
+          <div class="col-md-4 text-center mb-5 solutions__box">
+            <div class="icon-solutions maps">
+              <img class="color-white" src="images/ic-map.svg" alt="">
+            </div>
+            <h2>InMapz Navigator</h2>
+            <p>Phần mềm chuyên dụng cho các màn hình cảm ứng cỡ lớn, đa tính năng, kết hợp chỉ đường, tra cứu thông tin và truyền thông quảng cáo</p>
+            <button class="btn btn-lg btn-primary">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-customers">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-box text-center">
+              <hr class="line-title">
+              <h2><i></i><span>Khách hàng của chúng tôi</span><i></i></h2>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel owl-carousel-customers owl-theme">
+            <div class="item"><img src="images/img-mem01.png"></div>
+            <div class="item"><img src="images/img-mem02.png"></div>
+            <div class="item"><img src="images/img-mem03.png"></div>
+            <div class="item"><img src="images/img-mem04.png"></div>
+            <div class="item"><img src="images/img-mem05.png"></div>
+            <div class="item"><img src="images/img-mem06.png"></div>
+        </div>
+        </div>
+    </section>
+
+    <section class="our-customers-say">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-box text-center">
+              <hr class="line-title">
+              <h2><i></i><span>Khách hàng nói về InMapz</span><i></i></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <ul class="bxsliderCustomersSay">
+              <li>
+                <div class="thumb-selfie">
+                  <img src="images/thumb-selfie.png" alt="">
+                </div>
+                <div class="comments-body">
+                  <h4>
+                    Trong thời đại công nghệ số 4.0, bản đồ sân bay là tính năng hiện đại và hữu ích dành cho khách hàng, đặc biệt khi tới một sân bay mới. Ứng dụng giúp cho việc tìm các khu vực dịch vụ tại sân bay trở nên dễ dàng và thuận tiện hơn bao giờ hết
+                  </h4>
+                  <p><i>Ông: Lê Hồng Hà</i></p>
+                  <p>PTGĐ VietNam Airlines</p>
+                  <span class="framed framed-left"><img src="images/framed-left-ic.png" alt="" /></span>
+                  <span class="framed framed-right"><img src="images/framed-right-ic.png" alt="" /></span>
+                </div>                
+              </li>
+              <li>
+                <div class="thumb-selfie">
+                  <img src="images/thumb-selfie.png" alt="">
+                </div>
+                <div class="comments-body">
+                  <h4>
+                    InMapz X giúp chúng tôi dễ dàng tìm được vị trí các thiết bị và nắm được thông tin các thiết bị hiện có. Việc sử dụng rất đơn giản và giúp ích rất nhiều cho quy trình làm việc của chúng tôi
+                  </h4>
+                  <p><i>Chad O.</i></p>
+                  <p>Project Manager</p>
+                  <span class="framed framed-left"><img src="images/framed-left-ic.png" alt="" /></span>
+                  <span class="framed framed-right"><img src="images/framed-right-ic.png" alt="" /></span>
+                </div>                
+              </li>
+              <li>
+                <div class="thumb-selfie">
+                  <img src="images/thumb-selfie.png" alt="">
+                </div>
+                <div class="comments-body">
+                  <h4>
+                    Ứng dụng này rất hay, mình có thể xem được tất cả các chương trình khuyến mãi ở TTTM mà không cần tới từng cửa hàng, còn tiện lợi hơn là có chỉ đường từ màn hình cảm ứng tới cửa hàng đang khuyến mãi luôn
+                  </h4>
+                  <p><i>Bạn: Vũ Quốc Tuấn</i></p>
+                  <p>Người dùng</p>
+                  <span class="framed framed-left"><img src="images/framed-left-ic.png" alt="" /></span>
+                  <span class="framed framed-right"><img src="images/framed-right-ic.png" alt="" /></span>
+                </div>                
+              </li>                
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button type="button" class="btn btn-danger btn-floating" id="btn-back-to-top"><i class="bi bi-arrow-bar-up"></i></button>
+    <footer>
+     <div class="container-fuid text-center footer-top">
+      <h2>Ready see what InMapz can do for you</h2>
+      <button class="btn btn-lg btn-danger">Book a Demo</button>
+     </div>
+
+     <div class="container-fuid footer-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h2>Company</h2>
+            <ul class="box-link-footer">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h2>Solutions</h2>
+            <ul class="box-link-footer">
+              <li><a href="#">nMapz Navigator</a></li>
+              <li><a href="#">InMapz X</a></li>
+              <li><a href="#">nMapz Maps</a></li>
+            </ul>           
+          </div>
+          <div class="col-md-2">
+            <h2>Industries</h2>
+            <ul class="box-link-footer">
+              <li><a href="#">Corporate</a></li>
+              <li><a href="#">Healthcares</a></li>
+              <li><a href="#">Educations</a></li>
+              <li><a href="#">Airport/Airlines</a></li>
+              <li><a href="#">Hospitality</a></li>
+              <li><a href="#">Reatails</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h2>Resources</h2>
+            <ul class="box-link-footer">
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Guidelines</a></li>
+              <li><a href="#">Videos</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>WHERE.PLACE Inc.,</h2>
+            <ol>
+              <li><i class="bi bi-geo-alt-fill"></i><span>200 Spectrum Center Drive Suite# 300 Irvine, CA 92618</span></li>
+              <li><i class="bi bi-telephone-fill"></i>949-537-2029</li>
+            </ol>
+            <ul class="social">
+              <li><a href="#"><img src="images/ic_fb.png" alt="..."></a></li>
+              <li><a href="#"><img src="images/ic_tw.png" alt="..."></a></li>
+              <li><a href="#"><img src="images/ic_in.png" alt="..."></a></li>
+              <li><a href="#"><img src="images/ic_yt.png" alt="..."></a></li>
+            </ul>
+            <ul class="link-page">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     </div>    
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/function.js"></script>    
+  </body>
+</html>
